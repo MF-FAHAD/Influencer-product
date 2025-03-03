@@ -8,6 +8,7 @@
     font-weight: 600;
     background-color: rgb(224, 44, 109);
     border: none;
+    cursor: pointer;
 }
 .dark3{
   color: rgb(120, 120, 133);
@@ -132,13 +133,18 @@ footer i{
     margin-left: 20px;
     margin-right: 15px;
 }
+.menue{
+    display: none;
+}
 
 
 @media screen and (max-width:576px){
-    .navbar{
-        display: block;
-        margin-left: 40px;
-        text-align: center;
+    .nav-div2{
+        display: none;
+    }
+    .menue{
+        font-size: 30px;
+        margin-top: 20px;
     }
 
     /* section1 */
@@ -183,8 +189,7 @@ footer i{
         max-height: 100%;
     }
     .sec2-see{
-        position: relative;
-        left: 302px;
+        text-align: end;
     }
     /* section3 */
     .section3{
@@ -201,7 +206,7 @@ footer i{
     }
     .sec2-see{
         position: relative;
-        left: 10px;
+        left: 1 0px;
     }
     footer{
         max-width: 90%;
