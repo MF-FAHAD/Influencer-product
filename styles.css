@@ -35,6 +35,7 @@
 .nav-div2{
     gap: 20px;
     align-items: center;
+    margin-left: 450px;
 }
 
 /* main section1 */
@@ -134,7 +135,7 @@ footer i{
     margin-right: 15px;
 }
 .menue{
-    display: none;
+   visibility: hidden;
 }
 
 
@@ -143,6 +144,7 @@ footer i{
         display: none;
     }
     .menue{
+        visibility: visible;
         font-size: 30px;
         margin-top: 20px;
     }
@@ -200,9 +202,13 @@ footer i{
         order: 2;
         text-align: center;
     }
+    .sec3-div1 img{
+        max-width: 95%;
+    }
     .sec3-div2{
         order: 1;
         text-align: center;
+       
     }
     .sec2-see{
         position: relative;
