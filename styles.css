@@ -99,8 +99,8 @@
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: 700;
-    position: relative;
-    left: 920px;
+    text-align: end;
+    max-width: 100%;
 }
 /* section3 */
 .section3{
@@ -108,6 +108,7 @@
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 .section3 h1{
     font-size: 40px;
@@ -125,6 +126,7 @@ footer{
     text-align: center;
     padding: 20px;
     margin-top: 80px;
+    max-width: 100%;
 }
 footer i{
     margin-left: 20px;
@@ -187,6 +189,7 @@ footer i{
     /* section3 */
     .section3{
         flex-direction: column;
+        max-width: 100%;
     }
     .sec3-div1{
         order: 2;
@@ -198,16 +201,10 @@ footer i{
     }
     .sec2-see{
         position: relative;
-        left: 280px;
+        left: 10px;
     }
     footer{
         max-width: 90%;
     }
   
-}
-@media screen and (min-width:576px) and (max-width:967px) {
-    .sec2-see{
-        position: relative;
-        left: 800px;
-    }
 }
